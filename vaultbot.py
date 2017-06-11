@@ -24,7 +24,8 @@ def handle(msg):
     #Para se comunicar (via bot) com alguem, vc precisa do ID de chat.
     #Logo, para o bot enviar mensagens, alguem precisa enviar alguma primeiro pra ele.
     chat_id = msg['chat']['id']
-
+    
+    #boas vindas
     if content_type == "new_chat_member":
          bot.sendMessage(chat_id,'welcome', reply_to_message_id= True)
 
