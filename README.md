@@ -1,2 +1,2 @@
 # Vaultbot
-this is a simple bot where i share everything.
+this is a simple telegram bot where i share everything.
